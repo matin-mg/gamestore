@@ -1,2 +1,0 @@
-# storepage
-for my university
