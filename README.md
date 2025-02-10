@@ -1,377 +1,0 @@
-<!DOCTYPE html>
-<html lang="fa" dir="rtl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GamerBoost</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    />
-  </head>
-  <body class="bg-gray-900 text-white font-sans">
-    <!-- Header -->
-    <header class="bg-gray-800 py-4 px-6 flex justify-between items-center">
-      <div class="text-lg font-semibold">GamerBoost</div>
-      <nav class="flex gap-6">
-        <a
-          href="#"
-          class="text-gray-300 hover:text-sky-400 inline-block transform hover:scale-110 transition duration-200"
-          >خانه</a
-        >
-        <a
-          href="#"
-          class="text-gray-300 hover:text-sky-400 inline-block transform hover:scale-110 transition duration-200"
-          >اکانت قانونی
-        </a>
-        <a
-          href="#"
-          class="text-gray-300 hover:text-sky-400 inline-block transform hover:scale-110 transition duration-200"
-          >پلاس و گیم پس
-        </a>
-        <a
-          href="#"
-          class="text-gray-300 hover:text-sky-400 inline-block transform hover:scale-110 transition duration-200"
-        >
-          کنسول</a
-        >
-        <a
-          href="#"
-          class="text-gray-300 hover:text-sky-400 inline-block transform hover:scale-110 transition duration-200"
-          >پشتیبانی</a
-        >
-      </nav>
-      <div class="flex items-center gap-4">
-        <button
-          class="bg-gray-700 px-4 py-2 rounded-lg hover:text-blue-300 transform hover:scale-110 transition duration-200"
-        >
-          حساب کاربری
-        </button>
-        <i
-          class="fas fa-shopping-cart text-xl hover:text-blue-300 transform hover:scale-110 transition duration-200"
-        ></i>
-      </div>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="p-8 flex gap-8">
-      <div class="w-1/2 relative">
-        <img
-          src="https://api2.zoomit.ir/media/gta-6-poster-67a5950ded26ddc23258ec0d?w=1920&q=80"
-          alt="تصویر شهر با قایق‌های تفریحی و قلعه قدیمی"
-          class="rounded-xl"
-        />
-        <div
-          class="absolute top-4 left-4 bg-white bg-opacity-70 text-black px-4 py-2 rounded-lg text-lg font-bold"
-        >
-          Miami
-        </div>
-      </div>
-      <div class="w-1/2 flex flex-col justify-center">
-        <h1 class="text-4xl font-bold">
-          بازی کن , مبارزه کن , <br />
-          با ما به اوج <span class="text-blue-400">سرعت</span> برس 🚙
-        </h1>
-        <div class="mt-6 flex gap-4">
-          <div class="flex flex-col items-center">
-            <i class="fas fa-mountain text-2xl"></i>
-            <span>کوه</span>
-          </div>
-          <div class="flex flex-col items-center">
-            <i class="fas fa-city text-2xl"></i>
-            <span>شهر</span>
-          </div>
-          <div class="flex flex-col items-center">
-            <i class="fas fa-umbrella-beach text-2xl"></i>
-            <span>ساحل</span>
-          </div>
-          <div class="flex flex-col items-center">
-            <i class="fas fa-tree text-2xl"></i>
-            <span>کلبه</span>
-          </div>
-        </div>
-        <div class="mt-6 flex gap-4">
-          <input
-            type="text"
-            placeholder="مقصد خود را انتخاب کنید"
-            class="p-3 bg-gray-800 rounded-lg w-1/3"
-          />
-          <input
-            type="date"
-            class="p-3 bg-gray-800 rounded-lg hover:text-blue-400"
-          />
-          <input
-            type="date"
-            class="p-3 bg-gray-800 rounded-lg hover:text-blue-400"
-          />
-          <button
-            class="bg-blue-500 px-6 py-3 rounded-lg text-lg hover:text-blue-200"
-          >
-            جستجو
-          </button>
-        </div>
-      </div>
-    </section>
-
-    <!-- Popular Destinations -->
-    <section class="p-8">
-      <h2 class="text-3xl font-bold">🎮 محبوب ترین بازی ها</h2>
-      <div class="mt-6 grid grid-cols-3 gap-6">
-        <div class="bg-gray-800 p-4 rounded-lg">
-          <img
-            src="https://www.pcgamesn.com/wp-content/sites/pcgamesn/2024/08/black-myth-wukong-release-times.jpg"
-            alt="ساحل زیبا در مالزی"
-            class="rounded-lg"
-          />
-          <div class="mt-3 flex justify-between items-center">
-            <h3 class="text-xl font-bold">wukong</h3>
-            <span class="bg-red-500 px-2 py-1 text-sm rounded-lg"
-              >20% تخفیف</span
-            >
-          </div>
-          <p class="mt-2 text-gray-400">3 روز و 4 شب</p>
-          <p class="mt-1 text-lg font-bold">
-            <del class="discount">2,000,000 تومان</del> 1,700,000
-          </p>
-          <button
-            class="mt-3 bg-blue-500 px-4 py-2 rounded-lg flex items-center gap-2"
-          >
-            <i class="fas fa-plus"></i>بررسی محصول
-          </button>
-        </div>
-        <div class="bg-gray-800 p-4 rounded-lg">
-          <img
-            src="https://www.esports.net/br/wp-content/uploads/sites/3/2024/01/prince-of-persia-the-lost-crown-2024-1.webp"
-            alt="برج العرب در دبی"
-            class="rounded-lg"
-          />
-          <h3 class="mt-3 text-xl font-bold">prinse of persia</h3>
-          <p class="mt-2 text-gray-400">3 روز و 4 شب</p>
-          <p class="mt-1 text-lg font-bold">1,500,000 تومان</p>
-          <button
-            class="mt-3 bg-blue-500 px-4 py-2 rounded-lg flex items-center gap-2"
-          >
-            <i class="fas fa-plus"></i>بررسی محصول
-          </button>
-        </div>
-
-        <div class="bg-gray-800 p-4 rounded-lg">
-          <img
-            src="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1RLdppgLllgGZlkjuvHBu6/abbcf1e12935e4654a109324955a5087/RED_KEYART_STD_RGB_WW.jpg"
-            alt="نمایی از ساحل و بندر در آنتالیا"
-            class="rounded-lg"
-          />
-          <h3 class="mt-3 text-xl font-bold">assassin's shadow</h3>
-          <p class="mt-2 text-gray-400">3 روز و 4 شب</p>
-          <p class="mt-1 text-lg font-bold">4,500,000 تومان</p>
-          <button
-            class="mt-3 bg-blue-500 px-4 py-2 rounded-lg flex items-center gap-2"
-          >
-            <i class="fas fa-plus"></i>بررسی محصول
-          </button>
-        </div>
-      </div>
-    </section>
-
-    <!-- Why Choose Us -->
-    <section class="p-8">
-      <h2 class="text-3xl font-bold">🥇 چرا GamerBoost؟</h2>
-      <div class="mt-6 grid grid-cols-3 gap-6">
-        <div class="bg-gray-800 p-6 rounded-lg flex flex-col items-center">
-          <i class="fas fa-plane text-3xl"></i>
-          <h3 class="mt-3 font-bold text-lg">رزرو آنلاین</h3>
-          <p class="text-gray-400 text-center mt-2">لورم ایپسوم متن ساختگی</p>
-        </div>
-        <div class="bg-gray-800 p-6 rounded-lg flex flex-col items-center">
-          <i class="fas fa-dollar-sign text-3xl"></i>
-          <h3 class="mt-3 font-bold text-lg">ضمانت بهترین قیمت</h3>
-          <p class="text-gray-400 text-center mt-2">لورم ایپسوم متن ساختگی</p>
-        </div>
-        <div class="bg-gray-800 p-6 rounded-lg flex flex-col items-center">
-          <i class="fas fa-clock text-3xl"></i>
-          <h3 class="mt-3 font-bold text-lg">پشتیبانی 24 ساعته</h3>
-          <p class="text-gray-400 text-center mt-2">لورم ایپسوم متن ساختگی</p>
-        </div>
-      </div>
-    </section>
-
-    <div class="slider">
-      <img
-        class="imgs"
-        src="https://image.api.playstation.com/vulcan/ap/rnd/202409/2716/2cdf80a4335a032aac4302fd1a941cac3a0e237d6a1d1fe0.jpg"
-        alt="first"
-        style="--pos: 1"
-      />
-
-      <img
-        class="imgs"
-        src="https://cdn2.steamgriddb.com/grid/9d30f5cd5ea6c3cc6aac9a708cbf11a9.png"
-        alt="second"
-        style="--pos: 2"
-      />
-
-      <img
-        class="imgs"
-        src="https://steamdeckhq.com/wp-content/uploads/2022/10/SackboyGrid.jpg"
-        alt="third"
-        style="--pos: 3"
-      />
-
-      <img
-        class="imgs"
-        src="https://gametechland.shop/wp-content/uploads/2023/10/stray.webp"
-        alt="fourth"
-        style="--pos: 4"
-      />
-
-      <img
-        class="imgs"
-        src="https://igamer.ir/wp-content/uploads/2021/01/call-of-duty-cold-war-ps5-poster.jpg"
-        alt="fifth"
-        style="--pos: 5"
-      />
-
-      <img
-        class="imgs"
-        src="https://gameaccess.ir/wp-content/uploads/2024/09/Artboard-1-7.png"
-        alt="sixth"
-        style="--pos: 6"
-      />
-    </div>
-    <footer class="bg-[#1B2233] text-white py-10 px-6">
-      <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
-        <!-- بخش معرفی -->
-        <div>
-          <h2 class="text-xl font-bold text-red-400">GamerBoost</h2>
-          <p class="text-sm leading-7 mt-2">
-            ما یک آژانس دیجیتال مارکتینگ تمام خدمت هستیم که کلیه خدماتی که
-            کسب‌وکارها برای رشد در فضای دیجیتال به آنها نیاز دارند را
-            برنامه‌ریزی و اجرا می‌کنیم.
-          </p>
-        </div>
-
-        <!-- خدمات اصلی ما -->
-        <div>
-          <h3 class="text-lg font-semibold mb-3">خدمات اصلی ما</h3>
-          <ul class="space-y-2 text-sm">
-            <li>
-              <a
-                href="#"
-                class="text-gray-300 hover:text-sky-400 inline-block transform hover:scale-110 transition duration-200"
-              >
-                طراحی UI
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                class="text-gray-300 hover:text-sky-400 inline-block transform hover:scale-110 transition duration-200"
-              >
-                مدیریت شبکه اجتماعی
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                class="text-gray-300 hover:text-sky-400 inline-block transform hover:scale-110 transition duration-200"
-              >
-                سئو سایت
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                class="text-gray-300 hover:text-sky-400 inline-block transform hover:scale-110 transition duration-200"
-              >
-                طراحی سایت
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        <!-- خدمات دیگر -->
-        <div>
-          <h3 class="text-lg font-semibold mb-3">خدمات دیگر</h3>
-          <ul class="space-y-2 text-sm">
-            <li>
-              <a
-                href="#"
-                class="text-gray-300 hover:text-sky-400 inline-block transform hover:scale-110 transition duration-200"
-              >
-                تولید محتوا
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                class="text-gray-300 hover:text-sky-400 inline-block transform hover:scale-110 transition duration-200"
-              >
-                طراحی سایت در تهران
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                class="text-gray-300 hover:text-sky-400 inline-block transform hover:scale-110 transition duration-200"
-              >
-                طراحی سایت شرکتی
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                class="text-gray-300 hover:text-sky-400 inline-block transform hover:scale-110 transition duration-200"
-              >
-                سئوی محتوا
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                class="text-gray-300 hover:text-sky-400 inline-block transform hover:scale-110 transition duration-200"
-              >
-                طراحی موشن گرافیک
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        <!-- راه‌های تماس -->
-        <div>
-          <h3 class="text-lg font-semibold mb-3">راه های تماس</h3>
-          <p class="flex items-center space-x-2">
-            <span class="text-red-400 text-xl">📍</span>
-            <span>تهران، شریعتی، خیابان معلم</span>
-          </p>
-          <p class="flex items-center space-x-2 mt-2">
-            <span class="text-red-400 text-xl">📞</span>
-            <span>09121111111 - 02122222222</span>
-          </p>
-        </div>
-      </div>
-
-      <!-- شبکه‌های اجتماعی -->
-      <div class="mt-6 flex justify-center gap-6 border-t border-gray-500 pt-4">
-        <a href="#" class="text-gray-400 hover:text-white text-3xl">
-          <i class="fab fa-telegram"></i>
-        </a>
-        <a href="#" class="text-gray-400 hover:text-white text-3xl">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <a href="#" class="text-gray-400 hover:text-white text-3xl">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="#" class="text-gray-400 hover:text-white text-3xl">
-          <i class="fab fa-facebook"></i>
-        </a>
-      </div>
-
-      <!-- کپی‌رایت -->
-      <div class="text-center text-gray-400 text-sm mt-6">
-        طراحی شده با عشق توسط تیم آژانس ویکما
-      </div>
-    </footer>
-  </body>
-</html>
